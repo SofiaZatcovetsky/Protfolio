@@ -1,0 +1,138 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Finger+Paint');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+body {
+    direction: rtl;
+} 
+/*רקע לדף הבית*/
+#main {
+    background: #ffffff url("../images/1280_0_26e51fa1-9cf3-4ec9-8f5d-d1ad52b0619c.jpeg") no-repeat right top;
+    background-size: 1100px;
+    background-position: center top;
+    background-clip: border-box;
+    margin: 0 auto;
+}
+     /*רקע לשאר הדפים*/
+.other {
+    background: #ffffff url("../images/reka-blue-cut.png") no-repeat right top;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center top;
+    background-clip: border-box;
+}
+ ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+ li {
+    float: left;
+}
+    li a {
+        margin-left: 10px;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        border-collapse: separate;
+        padding: 10px 25px;
+        font-size: large;
+        font-family: 'Finger Paint', cursive;
+    }
+    /*מרכוז של הוידאו ותמונות*/
+img, iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color:whitesmoke;
+    text-shadow: 5px 5px 10px #000000;
+    font-style:italic;
+}
+p{
+    text-align:justify;
+    padding: 0 10px;
+}
+ /*סידור גודל מתאים לתמונות:*/
+#lifney{
+    width:400px;
+    height:500px;
+}
+#ahrey{
+    width:500px;
+    height:400px;
+}
+#container {
+    margin-right: 300px;
+    width: 850px;
+    padding: 50px;
+    justify-content: center;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+}
+/*שם נוסף לDIV אחר*/
+#merkaz {
+    margin-top: 120px;
+    margin-right: 300px;
+    width: 850px;
+    padding: 10px;
+    align-self: center;
+    justify-content:center;
+}
+/*שם נוסף לDIV אחר*/
+#tohen {
+    margin: 20px;
+    font-family: 'Varela Round', sans-serif;
+    word-spacing: 5px;
+    width: 480px;
+    padding-right: 10px;
+}
+ /*עיצוב התפריט ומעברי עכבר*/
+#blue {
+    text-shadow: 2px 2px 5px #2ab7e4;
+}
+#green {
+    text-shadow: 2px 2px 5px #61b948;
+}
+#yellow {
+    text-shadow: 2px 2px 5px #fcdc0b;
+}
+#red {
+    text-shadow: 2px 2px 5px #e84946;
+}
+#blue:hover {
+    text-shadow: 2px 2px 5px white;
+    background-color: #2ab7e4;
+    border-radius:40px;
+    border: 2px solid black;
+}
+#green:hover {
+    text-shadow: 2px 2px 5px white;
+    background-color: #61b948;
+    border-radius: 40px;
+    border: 2px solid black;
+}
+#yellow:hover {
+    text-shadow: 2px 2px 5px white;
+    background-color: #fcdc0b;
+    border-radius: 40px;
+    border: 2px solid black;
+}
+#red:hover {
+    text-shadow: 2px 2px 5px white;
+    background-color: #e84946;
+    border-radius: 40px;
+    border: 2px solid black;
+}
+ /*הגדלת התמונה*/ 
+ img, #ahrey, #lifney{
+    transition: width 2s, height 2s;
+}
+    img:hover, #ahrey:hover, #lifney:hover {
+        width: 90%;
+        height: 90%;
+    }
